@@ -12,6 +12,19 @@ header {
     padding: 10px 50px; 
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+img {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
 a {
     text-decoration: none;
 }
@@ -48,6 +61,7 @@ h1 {
 
 .top {
     display: flex;
+    justify-content: space-between;
     background-color: #121f30;
     padding: 10px 50px;
 }
@@ -57,6 +71,7 @@ h1 {
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    padding: 15px;
 }
 
 .middle {
@@ -75,7 +90,31 @@ h1 {
     padding: 50px;
 }
 
+h2 {
+    padding: 20px 0;
+}
+h3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: gray;
+}
+
+h5 {
+    display: flex;
+    justify-content: flex-end;
+}
 .calltoaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    margin: 50px;
+    padding: 30px;
 
 }
 
@@ -88,3 +127,13 @@ footer {
     padding: 8px;
 }
 
+
+.signup2 {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    border: white;
+    border-style: solid;
+    margin: 5px 20px;
+    padding: 2px 30px;
+}
