@@ -16,7 +16,6 @@ a {
     text-decoration: none;
 }
 
-
 h1 {
     font-weight: extra-bold;
     font-size: 48px;
@@ -48,6 +47,44 @@ h1 {
 }
 
 .top {
-    background-color: #1f2937;
+    display: flex;
+    background-color: #121f30;
     padding: 10px 50px;
 }
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.calltoaction {
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px;
+}
+
