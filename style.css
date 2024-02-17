@@ -16,7 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 img {
@@ -50,7 +51,7 @@ h1 {
 
 .header-links {
     font-size: 18px;
-    color: #e5e7eb;
+    color: lightgrey;
 }
 
 .header-links, ul {
